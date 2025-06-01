@@ -12,7 +12,8 @@
       "supportsTablet": true,
       "infoPlist": {
         "NSBluetoothAlwaysUsageDescription": "Esta aplicación necesita acceder a Bluetooth para buscar y conectar con sensores MST01.",
-        "NSBluetoothPeripheralUsageDescription": "Esta aplicación necesita acceder a Bluetooth para buscar y conectar con sensores MST01."
+        "NSBluetoothPeripheralUsageDescription": "Esta aplicación necesita acceder a Bluetooth para buscar y conectar con sensores MST01.",
+        "NSCameraUsageDescription": "Esta aplicación necesita acceso a la cámara para escanear códigos QR de sensores Minew."
       },
       "bundleIdentifier": "com.anonymous.Recover"
     },
@@ -33,7 +34,8 @@
         "BLUETOOTH_SCAN",
         "BLUETOOTH_CONNECT",
         "ACCESS_FINE_LOCATION",
-        "ACCESS_COARSE_LOCATION"
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA"
       ],
       "package": "com.anonymous.Recover"
     },
@@ -52,7 +54,9 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "react-native-ble-plx",
+      "expo-barcode-scanner"
     ],
     "experiments": {
       "typedRoutes": true
